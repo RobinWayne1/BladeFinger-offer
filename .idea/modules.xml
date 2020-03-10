@@ -24,7 +24,20 @@
       <module fileurl="file://$PROJECT_DIR$/29_字符串排列/29_字符串排列.iml" filepath="$PROJECT_DIR$/29_字符串排列/29_字符串排列.iml" />
       <module fileurl="file://$PROJECT_DIR$/2_单例模式/2_单例模式.iml" filepath="$PROJECT_DIR$/2_单例模式/2_单例模式.iml" />
       <module fileurl="file://$PROJECT_DIR$/30_数组中出现次数超过一半的数字/30_数组中出现次数超过一半的数字.iml" filepath="$PROJECT_DIR$/30_数组中出现次数超过一半的数字/30_数组中出现次数超过一半的数字.iml" />
+      <module fileurl="file://$PROJECT_DIR$/31_最小的K个数/31_最小的K个数.iml" filepath="$PROJECT_DIR$/31_最小的K个数/31_最小的K个数.iml" />
+      <module fileurl="file://$PROJECT_DIR$/32_最大子序列和/32_最大子序列和.iml" filepath="$PROJECT_DIR$/32_最大子序列和/32_最大子序列和.iml" />
+      <module fileurl="file://$PROJECT_DIR$/33_整数中1出现的次数/33_整数中1出现的次数.iml" filepath="$PROJECT_DIR$/33_整数中1出现的次数/33_整数中1出现的次数.iml" />
+      <module fileurl="file://$PROJECT_DIR$/34_把数组排成最小的数/34_把数组排成最小的数.iml" filepath="$PROJECT_DIR$/34_把数组排成最小的数/34_把数组排成最小的数.iml" />
+      <module fileurl="file://$PROJECT_DIR$/35_丑数/35_丑数.iml" filepath="$PROJECT_DIR$/35_丑数/35_丑数.iml" />
+      <module fileurl="file://$PROJECT_DIR$/36_第一个只出现一次的字符/36_第一个只出现一次的字符.iml" filepath="$PROJECT_DIR$/36_第一个只出现一次的字符/36_第一个只出现一次的字符.iml" />
+      <module fileurl="file://$PROJECT_DIR$/37_数组中的逆序对/37_数组中的逆序对.iml" filepath="$PROJECT_DIR$/37_数组中的逆序对/37_数组中的逆序对.iml" />
+      <module fileurl="file://$PROJECT_DIR$/38_两个链表的第一个公共结点/38_两个链表的第一个公共结点.iml" filepath="$PROJECT_DIR$/38_两个链表的第一个公共结点/38_两个链表的第一个公共结点.iml" />
+      <module fileurl="file://$PROJECT_DIR$/39_数字在排序数组中出现的次数/39_数字在排序数组中出现的次数.iml" filepath="$PROJECT_DIR$/39_数字在排序数组中出现的次数/39_数字在排序数组中出现的次数.iml" />
       <module fileurl="file://$PROJECT_DIR$/3_二维数组查找目标值/3_二维数组查找目标值.iml" filepath="$PROJECT_DIR$/3_二维数组查找目标值/3_二维数组查找目标值.iml" />
+      <module fileurl="file://$PROJECT_DIR$/40_二叉树的深度/40_二叉树的深度.iml" filepath="$PROJECT_DIR$/40_二叉树的深度/40_二叉树的深度.iml" />
+      <module fileurl="file://$PROJECT_DIR$/41_平衡二叉树/41_平衡二叉树.iml" filepath="$PROJECT_DIR$/41_平衡二叉树/41_平衡二叉树.iml" />
+      <module fileurl="file://$PROJECT_DIR$/42_数组中只出现一次的数字/42_数组中只出现一次的数字.iml" filepath="$PROJECT_DIR$/42_数组中只出现一次的数字/42_数组中只出现一次的数字.iml" />
+      <module fileurl="file://$PROJECT_DIR$/43_和为S的连续正数序列/43_和为S的连续正数序列.iml" filepath="$PROJECT_DIR$/43_和为S的连续正数序列/43_和为S的连续正数序列.iml" />
       <module fileurl="file://$PROJECT_DIR$/4_替换空格/4_替换空格.iml" filepath="$PROJECT_DIR$/4_替换空格/4_替换空格.iml" />
       <module fileurl="file://$PROJECT_DIR$/5_从尾到头打印链表/5_从尾到头打印链表.iml" filepath="$PROJECT_DIR$/5_从尾到头打印链表/5_从尾到头打印链表.iml" />
       <module fileurl="file://$PROJECT_DIR$/6_重建二叉树/6_重建二叉树.iml" filepath="$PROJECT_DIR$/6_重建二叉树/6_重建二叉树.iml" />
