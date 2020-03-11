@@ -38,7 +38,16 @@
       <module fileurl="file://$PROJECT_DIR$/41_平衡二叉树/41_平衡二叉树.iml" filepath="$PROJECT_DIR$/41_平衡二叉树/41_平衡二叉树.iml" />
       <module fileurl="file://$PROJECT_DIR$/42_数组中只出现一次的数字/42_数组中只出现一次的数字.iml" filepath="$PROJECT_DIR$/42_数组中只出现一次的数字/42_数组中只出现一次的数字.iml" />
       <module fileurl="file://$PROJECT_DIR$/43_和为S的连续正数序列/43_和为S的连续正数序列.iml" filepath="$PROJECT_DIR$/43_和为S的连续正数序列/43_和为S的连续正数序列.iml" />
+      <module fileurl="file://$PROJECT_DIR$/44_和为S的两个数字/44_和为S的两个数字.iml" filepath="$PROJECT_DIR$/44_和为S的两个数字/44_和为S的两个数字.iml" />
+      <module fileurl="file://$PROJECT_DIR$/45_左旋转字符串/45_左旋转字符串.iml" filepath="$PROJECT_DIR$/45_左旋转字符串/45_左旋转字符串.iml" />
+      <module fileurl="file://$PROJECT_DIR$/46_翻转单词顺序列/46_翻转单词顺序列.iml" filepath="$PROJECT_DIR$/46_翻转单词顺序列/46_翻转单词顺序列.iml" />
+      <module fileurl="file://$PROJECT_DIR$/47_扑克牌顺子/47_扑克牌顺子.iml" filepath="$PROJECT_DIR$/47_扑克牌顺子/47_扑克牌顺子.iml" />
+      <module fileurl="file://$PROJECT_DIR$/48_约瑟夫环/48_约瑟夫环.iml" filepath="$PROJECT_DIR$/48_约瑟夫环/48_约瑟夫环.iml" />
+      <module fileurl="file://$PROJECT_DIR$/49_求1+2+3+...+n/49_求1+2+3+...+n.iml" filepath="$PROJECT_DIR$/49_求1+2+3+...+n/49_求1+2+3+...+n.iml" />
       <module fileurl="file://$PROJECT_DIR$/4_替换空格/4_替换空格.iml" filepath="$PROJECT_DIR$/4_替换空格/4_替换空格.iml" />
+      <module fileurl="file://$PROJECT_DIR$/50_不用加减乘除做加法/50_不用加减乘除做加法.iml" filepath="$PROJECT_DIR$/50_不用加减乘除做加法/50_不用加减乘除做加法.iml" />
+      <module fileurl="file://$PROJECT_DIR$/51_把字符串转换成整数/51_把字符串转换成整数.iml" filepath="$PROJECT_DIR$/51_把字符串转换成整数/51_把字符串转换成整数.iml" />
+      <module fileurl="file://$PROJECT_DIR$/52_数组中重复的数字/52_数组中重复的数字.iml" filepath="$PROJECT_DIR$/52_数组中重复的数字/52_数组中重复的数字.iml" />
       <module fileurl="file://$PROJECT_DIR$/5_从尾到头打印链表/5_从尾到头打印链表.iml" filepath="$PROJECT_DIR$/5_从尾到头打印链表/5_从尾到头打印链表.iml" />
       <module fileurl="file://$PROJECT_DIR$/6_重建二叉树/6_重建二叉树.iml" filepath="$PROJECT_DIR$/6_重建二叉树/6_重建二叉树.iml" />
       <module fileurl="file://$PROJECT_DIR$/7_用两个栈实现队列/7_用两个栈实现队列.iml" filepath="$PROJECT_DIR$/7_用两个栈实现队列/7_用两个栈实现队列.iml" />
