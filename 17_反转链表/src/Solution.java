@@ -11,7 +11,8 @@ class ListNode
 }
 
 /**
- * 思路:用三个指针分别记录当前节点的pre,当前节点current与当前节点的next结点,
+ * 思路：其实就是将1→2→3→4变成1⬅2→3→4,重复这个操作
+ * 用三个指针分别记录当前节点的pre,当前节点current与当前节点的next结点,
  * 每次迭代的操作都先记录当前结点的next,再将当前节点的next修改为pre,修改完后变更三个指针的引用.
  *
  *
@@ -49,9 +50,10 @@ public class Solution
     {
 
         ListNode c = new ListNode(1);
+        c.next=new ListNode(2);
+        c.next.next=new ListNode(3);
 
-
-        ListNode b = ReverseList(null);
+        ListNode b = ReverseList(c);
         System.out.println(b.val);
     }
 }
