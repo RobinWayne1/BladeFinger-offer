@@ -10,6 +10,10 @@ import java.util.LinkedList;
  * 的窗口滑动也不再需要这些比较小的数,所以将队列清空,并放入新增数的下标.若比队头要小,则要判断队列中是否有比
  * 新增加的数小的数,若有,则将此下标删除,因为后续也不可能用到这个比新增数小的数,然后将新增数加入队尾(因为在队头
  * 超出作用域后,这个新增的数还是有机会变成后面窗口最大值的,而在此数前面且比此数小的数则不可能)
+ *
+ *
+ * 总的来说就是维护单调递减队列，这个最好记了，就是要判断size=0和1的特殊情况，因为这个方法是从num[0]开始的
+ * 所以会出现43行0-1的情况,最终在index=0是deque会有两个0,所以该情况要另外处理
  * @author Robin
  * @date 2020/3/13 -20:48
  */
@@ -21,13 +25,13 @@ public class Solution
         if (num == null || num.length == 0 || size <= 0 || num.length < size) {
             return result;
         }
-        if(size==1)
-        {
-            for(int i=0;i<num.length;i++){
-                result.add(num[i]);
-            }
-            return result;
-        }
+//        if(size==1)
+//        {
+//            for(int i=0;i<num.length;i++){
+//                result.add(num[i]);
+//            }
+//            return result;
+//        }
         //记录元素的下标
         LinkedList<Integer> deque = new LinkedList<>();
         deque.addLast(0);

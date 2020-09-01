@@ -6,7 +6,7 @@
  * @author Robin
  * @date 2020/3/11 -20:49
  */
-public class Solution
+public class  Solution
 {
     public static int StrToInt(String str)
     {

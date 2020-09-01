@@ -15,7 +15,7 @@
 public class Solution
 {
     //迭代root1,寻找到与root2根节点相同的结点后,则进入子递归
-    public  boolean HasSubtree(TreeNode root1, TreeNode root2)
+    public static  boolean HasSubtree(TreeNode root1, TreeNode root2)
     {
         if (root2 == null)
         {
@@ -34,7 +34,7 @@ public class Solution
         return HasSubtree(root1.left, root2) || HasSubtree(root1.right, root2);
     }
     //开始判断以该root1结点为根节点的子树是否与root2子结构相同
-    public  boolean isSubTree(TreeNode root1, TreeNode root2)
+    public  static boolean isSubTree(TreeNode root1, TreeNode root2)
     {
         if(root2==null)
         {
@@ -55,7 +55,17 @@ public class Solution
 
     public static void main(String[] args)
     {
-
+        TreeNode t=new TreeNode(8);
+        t.left=new TreeNode(8);
+        t.left.left=new TreeNode(9);
+        t.left.right=new TreeNode(2);
+        t.left.right.left=new TreeNode(4);
+        t.left.right.right=new TreeNode(7);
+        t.right=new TreeNode(7);
+        TreeNode k=new TreeNode(8);
+        k.left=new TreeNode(9);
+        k.right=new TreeNode(2);
+        HasSubtree(t,k);
 
     }
 }

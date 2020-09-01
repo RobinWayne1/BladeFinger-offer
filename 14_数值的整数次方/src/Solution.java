@@ -7,7 +7,7 @@
  */
 public class Solution
 {
-    public  double Power(double base, int exponent)
+    public  static double Power(double base, int exponent)
     {
         //控制首次指数就为0的情况
         if(exponent==0)
@@ -37,7 +37,7 @@ public class Solution
         else
         {
             value=Power(base, (exponent-1) >>1);
-            value*=value*value;
+            value*=value*base;
         }
 
         if(minus)
@@ -48,7 +48,7 @@ public class Solution
     }
     public static void main(String[]args)
     {
-
+        System.out.println(Power(3,5));
     }
 
 }

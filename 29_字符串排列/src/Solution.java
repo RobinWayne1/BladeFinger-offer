@@ -3,7 +3,7 @@ import java.util.Comparator;
 import java.util.LinkedHashSet;
 
 /**
- * 思路:回溯排列树,其他限制条件交给集合类
+ * 思路:回溯排列树,去重的限制条件交给集合类
  * @author Robin
  * @date 2020/3/9 -13:51
  */

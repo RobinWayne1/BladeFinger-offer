@@ -9,31 +9,56 @@ import java.util.Queue;
  */
 public class Solution
 {
-    public static ArrayList<Integer> PrintFromTopToBottom(TreeNode root)
+//    public static ArrayList<Integer> PrintFromTopToBottom(TreeNode root)
+//    {
+//        ArrayList<Integer> result = new ArrayList<>();
+//        LinkedList<TreeNode> queue = new LinkedList<>();
+//        if(root!=null)
+//        {
+//            queue.addFirst(root);
+//        }
+//        while (queue.size() != 0)
+//        {
+//            TreeNode current = queue.removeLast();
+//            result.add(current.val);
+//            if (current.left != null)
+//            {
+//                queue.addFirst(current.left);
+//            }
+//            if (current.right != null)
+//            {
+//                queue.addFirst(current.right);
+//            }
+//
+//        }
+//        return result;
+//    }
+public static ArrayList<Integer> PrintFromTopToBottom(TreeNode root) {
+    LinkedList<TreeNode> queue=new LinkedList<>();
+    ArrayList<Integer>result=new ArrayList<>();
+    queue.addLast(root);
+    queue.addLast(null);
+    while(queue.size()!=1)
     {
-        ArrayList<Integer> result = new ArrayList<>();
-        LinkedList<TreeNode> queue = new LinkedList<>();
-        if(root!=null)
+        TreeNode t=queue.removeFirst();
+        if(t==null)
         {
-            queue.addFirst(root);
+            queue.addLast(null);
+            t=queue.removeFirst();
         }
-        while (queue.size() != 0)
-        {
-            TreeNode current = queue.removeLast();
-            result.add(current.val);
-            if (current.left != null)
-            {
-                queue.addFirst(current.left);
-            }
-            if (current.right != null)
-            {
-                queue.addFirst(current.right);
-            }
 
+        result.add(t.val);
+        if(root.left!=null){
+            queue.addLast(root.left);
         }
-        return result;
+        if(root.right!=null)
+        {
+            queue.addLast(root.right);
+        }
+
     }
-
+    return result;
+}
     public static void main(String[] args)
     {
         TreeNode a = new TreeNode(1);

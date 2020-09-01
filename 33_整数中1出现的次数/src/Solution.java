@@ -9,36 +9,59 @@
  */
 public class Solution
 {
-    public static int NumberOf1Between1AndN_Solution(int n)
+//    public static int NumberOf1Between1AndN_Solution(int n)
+//    {
+//        String str=String.valueOf(n);
+//        int times=0;
+//        for(int i=str.length()-1,j=0;i>=0;i--,j++)
+//        {
+//           int a=Integer.valueOf(str.substring(0,i).equals("")?"0":str.substring(0,i));
+//           int b=Integer.valueOf(str.substring(i+1).equals("")?"0":str.substring(i+1));
+//           //此处我将目标位从a中分离了出来,不同于思路描述
+//           int cur=Integer.valueOf(str.substring(i,i+1));
+//
+//           if(cur>1)
+//           {
+//               times+=(a+1)*Math.pow(10,j);
+//           }
+//           if(cur==1)
+//           {
+//               times+=a*Math.pow(10,j)+b+1;
+//           }
+//           if(cur==0)
+//           {
+//               times+=a*Math.pow(10,j);
+//           }
+//        }
+//        return times;
+//    }
+public static int NumberOf1Between1AndN_Solution(int n) {
+    String n1=String.valueOf(n);
+    int count=0;
+    for(int i=0;i<n1.length();i++)
     {
-        String str=String.valueOf(n);
-        int times=0;
-        for(int i=str.length()-1,j=0;i>=0;i--,j++)
+        int left=Integer.parseInt(n1.substring(0,i).equals("")?"0":n1.substring(0,i));
+        int right=Integer.parseInt(n1.substring(i+1,n1.length()).equals("")?"0":n1.substring(i+1,n1.length()));
+        int cur=Integer.parseInt(n1.substring(i,i+1));
+        if(cur>1)
         {
-           int a=Integer.valueOf(str.substring(0,i).equals("")?"0":str.substring(0,i));
-           int b=Integer.valueOf(str.substring(i+1).equals("")?"0":str.substring(i+1));
-           //此处我将目标位从a中分离了出来,不同于思路描述
-           int cur=Integer.valueOf(str.substring(i,i+1));
-
-           if(cur>1)
-           {
-               times+=(a+1)*Math.pow(10,j);
-           }
-           if(cur==1)
-           {
-               times+=a*Math.pow(10,j)+b+1;
-           }
-           if(cur==0)
-           {
-               times+=a*Math.pow(10,j);
-           }
+            count+=(left+1)*Math.pow(10,n1.length()-i-1);
         }
-        return times;
+        else if(cur==1)
+        {
+            count+=left*Math.pow(10,n1.length()-i-1)+right+1;
+        }
+        else
+        {
+            count+=left*Math.pow(10,n1.length()-i-1);
+        }
     }
+    return count;
+}
     public static void main(String[]args)
     {
-     String a="1";
-     System.out.println(NumberOf1Between1AndN_Solution(123));
+     String a="10";
+     System.out.println(NumberOf1Between1AndN_Solution(10));
 
     }
 }
